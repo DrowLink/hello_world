@@ -93,6 +93,7 @@ class CustomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton(
+      enableFeedback: true, //sounds feedback
       onPressed: onPressed,
       shape: const StadiumBorder(),
       child:  Icon(icon),
